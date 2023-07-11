@@ -13,6 +13,7 @@ public class Rectangle {
     public int calculateArea() {
         return length * width;
     }
+
     public boolean checkIfSquare() {
         if (length == width) {
             this.isRectangle = true;
