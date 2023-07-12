@@ -34,7 +34,7 @@ public class Runner {
         System.out.println("Computer has " + currentStorage + "GB storage");
 
         // 3. Add more storage to the computer
-        computer.addStorage(30);
+        computer.addStorage(100);
         // We use the getter again to check that the amount of storage has been updated
         int newStorage = computer.getCurrentStorage();
         System.out.println("Computer now has " + newStorage + "GB storage");
@@ -47,7 +47,7 @@ public class Runner {
 
         // 5. Write a method to print a message.
         // To test this works *without* a printer too you can comment out the code for question 4
-        computer.printMessage("Hello World!");
+        computer.printMessage("No printer is connected");
     }
 
     public static void shoppingTrolleyDemo(){
