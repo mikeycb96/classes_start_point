@@ -15,16 +15,17 @@ public class Computer {
      public void addStorage(int addedStorage){
         this.storage += addedStorage;
      }
-
+    public String getPrinterModel() {
+        return printerModel;
+    }
     public void setPrinterModel(String newPrinterModel) {
         this.printerModel = newPrinterModel;
     }
 
-    public String getPrinterModel() {
-        return printerModel;
-    }
+
 
     public void printMessage(String message){
+        if (!this.printerModel.equals(""))
         System.out.println(message);
     }
 }
